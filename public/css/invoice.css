@@ -1,0 +1,109 @@
+
+
+
+body {
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #d7d7d7;
+}
+
+#invoice-content *, #replace-content * {
+  box-sizing:border-box;
+}
+
+.container {
+  width: 900px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  overflow: hidden;
+  box-shadow:0 2px 2px rgba(0,0,0,.2);
+  border-radius:6px;
+}
+
+input[type=text], input[type=number], input[type=date], select {
+  font-family: 'Source Sans Pro', Sans-serif;
+  font-size: 1em;
+  border: none;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 4px;
+  outline: none;
+}
+.items-table {
+  width: 100%;
+}
+.items-table th {
+  text-align: left;
+  font-weight: 300;
+  padding: 10px 5px 3px;
+  white-space: nowrap;
+}
+.items-table input[type=text], .items-table input[type=number], .items-table input[type=date], .items-table select {
+  width: 100%;
+}
+#items td {
+  padding: 5px;
+  background: #eee;
+  border-bottom: 1px solid #fff;
+}
+#items .desc {
+  min-width: 200px;
+}
+#items .total-price {
+  text-align: right;
+  font-weight: 600;
+}
+.invoice-totals ,.replace-totals {
+  width: 50%;
+  float: right;
+}
+.invoice-totals th ,.replace-totals th {
+  font-weight: 300;
+}
+.invoice-totals th, .invoice-totals td ,.replace-totals th, .replace-totals td {
+  text-align: right;
+  padding: 5px;
+  border-bottom: 1px solid #d7d7d7;
+}
+.invoice-totals .tax-container td ,.replace-totals .tax-container td {
+  border-bottom: none;
+  padding: 0;
+}
+#taxs {
+  width: 100%;
+}
+#taxs thead th {
+  font-weight: 300;
+  background-color: #eee;
+}
+#taxs th, #taxs td {
+  text-align: right;
+  padding: 5px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.class_image_header{
+  width: 100%;
+}
+
+#invoice_details table , #print_content table, #chalan_details table, #replace_details table{
+  margin-bottom:10px;
+}
+
+
+#invoice_show .only-print, #replace_show #chalan_details,#replace_show .only-print, #replace_show #chalan_details{
+  display: none;
+}
+
+
+#invoice_chalan .only-print, #invoice_chalan #invoice_details{
+  display: none;
+}
+
+#print_content .print-half-width{
+  /*display: none;*/
+  width:50% !important;
+  float: left;
+  
+}

@@ -1,0 +1,206 @@
+
+
+
+body {
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#cv-wrapper{
+  width:990px;
+     height: 1250px;
+  height: 1400px;
+  -webkit-print-color-adjust: exact;
+}
+
+section {
+    margin: 15px 0;
+}
+.heading h1, .heading {
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.cv-sidebar{
+  width:38%;
+  height: 100%;
+  background-color: #4B4F4E ;
+  float: left;
+  color: #C1C5C4 ;
+  -webkit-print-color-adjust: exact;
+}
+
+
+
+.cv-sidebar .photo{
+  width: 100%;
+     height: 346px;
+    background-size: 100%  ;
+}
+
+.bio{
+    background: #308EC2 ;
+    float: left;
+    width: 100%;
+    padding: 30px 3%  ;
+    -webkit-print-color-adjust: exact;
+    color: white;
+}
+.bio h1.title {
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+.bio h2.sub-title {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.cv-sidebar .heading {
+    border-bottom: 1px solid;
+    margin: 35px 20px 10px 0;
+}
+.cv-sidebar .profile-details {
+    padding-left: 25px;
+    padding-right: 25px;
+    float: left;
+}
+.cv-sidebar p{
+  margin: 15px 0;
+  text-align: justify;
+}
+
+#social-links{
+  word-break: break-all;
+
+}
+section#social-links p span {
+    font-variant: common-ligatures;
+    letter-spacing: -0.5px;
+}
+section#social-links p a {
+    color: inherit;
+}
+
+section#social-links p a:hover {
+      text-decoration: underline;
+}
+section#social-links p i {
+    display: inline-block;
+    width: 16px;
+}
+
+
+.cv-body{
+  width:62%;
+  height: 100%;
+  background: #F0F0F0 ;
+  float: left;
+  color: #545454 ;
+  padding:45px 0 15px 0;
+  -webkit-print-color-adjust: exact;
+}
+
+.cv-body section{
+  margin:20px 0;
+     float: left;
+    width: 100%;
+}
+
+.cv-body .heading {
+    line-height: 100%;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.cv-body .icon {
+    float: left;
+    width: 143px;
+    background: #308ec2;
+    text-align: right;
+    padding: 6px 30px 2px 30px;
+    margin-left: -16px;
+    color: white;
+    margin-right: 25px;
+    font-size: 20px;
+    -webkit-print-color-adjust: exact;
+}
+
+.list-item-design1 , .list-item-design2 {
+    margin: 10px 0;
+    float: left;
+    width: 100%;
+}
+
+.list-item-design1 .p1 {
+    float: left;
+    width: 100px;
+    text-align: right;
+     min-height: 10px;
+}
+
+.list-item-design1 .p2 {
+    float: left;
+    width: 53px;
+    text-align: center;
+}
+.list-item-design1 .list-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #308ec2 ;
+}
+.list-item-design1 span.list-sub-title {
+    text-transform: initial;
+    color: black ;
+    font-size: 16px;
+}
+.list-item-design1 .list-body {
+    
+    float: right;
+     width: calc(100% - 153px);
+    text-align: justify;
+}
+
+.list-item-design1 .p3 {
+
+}
+
+
+
+.list-item-design2 ul {
+    float: left;
+    padding: 0;
+}
+
+.list-item-design2 ul > li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    float: left;
+    padding-right: 3%;
+    margin: 6px 0;
+}
+.list-item-design2 ul > li:nth-child(even) {
+    padding-left: 3%;
+    padding-right: 0;
+}
+
+.list-item-design2 ul li > span {
+    float: left;
+    width: 50%;   
+     margin-top: 4px;
+}
+
+.list-item-design2 ul li span.score {
+    float: right;
+    width: 50%;
+    font-size: 11px;
+     letter-spacing: 0.5px;
+  }
+
+
